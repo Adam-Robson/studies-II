@@ -1,5 +1,5 @@
 
-# Study
+# Study - Day 1
 
 Do two of the challenges at least.
 

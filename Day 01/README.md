@@ -41,3 +41,17 @@ Test Cases
 Input Output
 jewels = "aA", stones = "aAAbbbb" 3
 jewels = "z", stones = "ZZ" 0
+
+## Pluralize Words
+
+Given a list of words in the singular form, return a set of those words in the plural form if they appear more than once in the list.
+
++ This is an oversimplification of the English language so no edge cases will appear.
++ Only focus on whether or not to add an s to the ends of words.
+
+function = pluralize
+input = (words)
+
+["cow", "pig", "cow", "cow"] ["cows", "pig"]
+["table", "table", "table"] ["tables"]
+["chair", "pencil", "arm"] ["chair", "pencil", "arm"]s
